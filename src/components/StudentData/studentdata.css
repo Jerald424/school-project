@@ -1,0 +1,22 @@
+.studentCommenDetails {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(230, 230, 230);
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+}
+@media only screen and (max-width: 600px) {
+  .studentCommenDetails {
+    flex-direction: column;
+  }
+}
+.first-key-value,
+.second-key-value {
+  display: flex;
+  gap: 70px;
+}
+.first-key,
+.second-key {
+  width: 130px;
+}

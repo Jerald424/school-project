@@ -1,0 +1,193 @@
+.student-data-totally h2 {
+  margin-top: 40px;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+.en-data-outside {
+  width: 98%;
+
+  margin: auto;
+  display: grid;
+  --columns: 3;
+  --height: 180px;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  grid-auto-rows: var(--height);
+  gap: 20px;
+}
+@media only screen and (max-width: 500px) {
+  .en-data-outside {
+    --columns: 1;
+  }
+}
+
+/* -========en-data-display====== */
+.en-data-display {
+  display: flex;
+  background: rgba(185, 220, 235, 0.603);
+  border: 1px solid rgba(199, 199, 255, 0.548);
+  justify-content: space-between;
+  padding: 10px;
+  gap: 10px;
+
+  border-radius: 4px;
+}
+.en-data-display .en-std-avatar {
+  flex: 1;
+  background: rgba(199, 235, 255, 0.712);
+  border: 1px solid rgb(162, 218, 255);
+  border-radius: 4px;
+  padding: 10px;
+}
+.total-right-part {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  overflow: scroll;
+  border: 1px solid rgb(162, 218, 255);
+
+  background: rgba(199, 235, 255, 0.712);
+  border-radius: 4px;
+}
+.total-right-part::-webkit-scrollbar {
+  display: none;
+}
+.en-data-display .en-age {
+  border-radius: 4px;
+}
+.en-data-display .en-std-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.name-email-password {
+  text-align: center;
+  align-items: center;
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.name-email-password .en-name {
+  border-radius: 5px;
+  padding: 10px;
+  /* margin: 10px; */
+  background: rgb(187, 187, 187);
+  color: white;
+  width: 100px;
+  height: 35px;
+  display: flex;
+}
+.en-name p {
+  height: 20px;
+  overflow-x: scroll;
+  margin: 0;
+  position: relative;
+  right: 20px;
+}
+.en-name p::-webkit-scrollbar {
+  display: none;
+}
+.en-span {
+  position: relative;
+  background: rgb(255, 217, 0);
+  color: black;
+  bottom: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 10px;
+  padding: 3px;
+  right: 5px;
+}
+
+.name-email-password .en-email {
+  border-radius: 5px;
+  color: white;
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  /* overflow: scroll; */
+  /* margin: 10px; */
+  height: 35px;
+  background: rgb(187, 187, 187);
+}
+.name-email-password .en-email p {
+  overflow: scroll;
+  margin: auto;
+  position: relative;
+  right: 20px;
+  width: 90px;
+}
+.name-email-password .en-email p::-webkit-scrollbar {
+  display: none;
+}
+.name-email-password .en-name::-webkit-scrollbar {
+  display: none;
+}
+
+.name-email-password .en-password {
+  border-radius: 5px;
+  color: white;
+  width: 100px;
+  height: 35px;
+
+  padding: 10px;
+  /* margin: 10px; */
+
+  background: rgb(187, 187, 187);
+}
+
+.name-email-password .en-age {
+  border-radius: 5px;
+  color: white;
+  width: 100px;
+  height: 35px;
+
+  background: rgb(187, 187, 187);
+  padding: 10px;
+  /* margin: 10px; */
+}
+
+/* =right-button==== */
+.right-button-part {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin: auto;
+}
+.right-button-part button {
+  width: 80px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  height: 30px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 10px;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(
+    to right,
+    #004617,
+    #105000,
+    #ffae00,
+    #ff5e00
+  );
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+.right-button-part button:hover {
+  background-position: 100% 0;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}

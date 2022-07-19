@@ -1,0 +1,34 @@
+.individual-item {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  cursor: pointer;
+}
+.individual-item button {
+  width: 100%;
+}
+.individual-item img {
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
+}
+.individual-item button {
+  font-weight: 600;
+}
+.display-sports-items {
+  width: 90%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 250px;
+  overflow-x: scroll;
+  gap: 20px;
+}
+.display-sports-items::-webkit-scrollbar {
+  display: none;
+}

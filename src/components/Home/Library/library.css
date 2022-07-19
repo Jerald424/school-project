@@ -1,0 +1,180 @@
+.library-top-img {
+  display: grid;
+  --gap: 20px;
+  --columns: 6;
+  --height: 200px;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  grid-auto-rows: var(--height);
+  gap: var(--gap);
+  width: 95%;
+  margin: auto;
+  overflow-x: scroll;
+}
+
+.library-top-img::-webkit-scrollbar {
+  display: none;
+}
+
+.library-top-img img {
+  width: 250px;
+  height: 84%;
+  object-fit: cover;
+}
+
+.individual-card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.individual-card:nth-child(1) button {
+  background: linear-gradient(to right, rgb(60, 255, 0), yellow);
+  border: none;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+}
+
+.individual-card:nth-child(2) button {
+  background: linear-gradient(to right, rgb(255, 115, 0), rgb(255, 175, 94));
+  border: none;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+}
+
+.individual-card:nth-child(3) button {
+  background: linear-gradient(to right, rgb(13, 255, 0), rgb(20, 154, 0));
+  border: none;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+}
+
+.individual-card:nth-child(4) button {
+  background: linear-gradient(to right, rgb(0, 157, 255), rgb(7, 207, 164));
+  border: none;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+}
+
+.individual-card:nth-child(5) button {
+  background: linear-gradient(to right, rgb(200, 0, 255), rgb(103, 0, 135));
+  border: none;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+}
+
+.individual-card:nth-child(6) button {
+  background: linear-gradient(to right, rgb(255, 0, 17), rgb(207, 7, 90));
+  border: none;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+}
+
+/* =========library-table======== */
+.library-table-outside {
+  width: 80%;
+  margin: 30px auto 20px auto;
+  overflow-x: scroll;
+}
+
+.library-table-outside::-webkit-scrollbar {
+  display: none;
+}
+
+.library-table {
+  margin: auto;
+}
+
+.table {
+  overflow-x: scroll;
+  margin: auto;
+
+}
+
+.table-row button {
+  font-weight: bold;
+  color: white;
+  background: #000;
+}
+
+.table-row:nth-child(1) button {
+  background: rgb(95, 0, 219) !important;
+  border: none;
+
+}
+
+.table-row:nth-child(2) button {
+  background: rgb(40, 199, 0) !important;
+  border: none;
+
+}
+
+.table-row:nth-child(3) button {
+  background: rgb(95, 0, 219) !important;
+  border: none;
+
+}
+
+.table-row:nth-child(4) button {
+  background: rgb(40, 199, 0) !important;
+  border: none;
+
+
+}
+
+.table-row:nth-child(5) button {
+  background: rgb(95, 0, 219) !important;
+  border: none;
+
+}
+
+.table-row:nth-child(6) button {
+  background: rgb(40, 199, 0) !important;
+  border: none;
+
+}
+
+.table-row:nth-child(7) button {
+  background: rgb(95, 0, 219) !important;
+  border: none;
+
+}
+
+/* ======buy-now-button=== */
+.table-row .svg-inline--fa {
+  font-size: 20px;
+
+}
+
+.table-row:nth-child(1) .svg-inline--fa {
+  color: rgb(255, 94, 0);
+}
+
+.table-row:nth-child(2) .svg-inline--fa {
+  color: rgb(247, 0, 255);
+}
+
+.table-row:nth-child(3) .svg-inline--fa {
+  color: rgb(255, 94, 0);
+}
+
+.table-row:nth-child(4) .svg-inline--fa {
+  color: rgb(255, 0, 234);
+}
+
+.table-row:nth-child(5) .svg-inline--fa {
+  color: rgb(255, 94, 0);
+}
+
+.table-row:nth-child(6) .svg-inline--fa {
+  color: rgb(255, 0, 234);
+}
+
+.table-row:nth-child(7) .svg-inline--fa {
+  color: rgb(255, 94, 0);
+}

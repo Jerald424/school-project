@@ -1,0 +1,162 @@
+.log-in-form {
+  background: #cbcbcbaf;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+  border-radius: 3px;
+}
+@media only screen and (min-width: 900px) {
+  .log-in-form {
+    width: 60%;
+  }
+}
+.name,
+.email {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+}
+.log-in-form input {
+  width: 70%;
+  margin: auto;
+  height: 35px;
+  border-radius: 3px;
+  border: none;
+  max-width: 250px;
+  height: 40px;
+}
+.name-email {
+  /* background: rgb(176, 255, 169); */
+  border-bottom: 1px solid black;
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 5px !important;
+
+  border-radius: 3px;
+  border-radius: 3px;
+}
+.password-repassword-age-dob {
+  /* background: rgb(176, 255, 169); */
+  border-bottom: 1px solid black;
+
+  padding: 20px;
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
+
+  margin: 10px;
+  border-radius: 3px;
+  border-radius: 3px;
+}
+.password,
+.repassword,
+.age,
+.dob {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+.address-phone-state {
+  /* background: rgb(176, 255, 169); */
+  /* border-bottom: 1px solid black; */
+
+  padding: 20px;
+  margin-bottom: 0px !important;
+  margin-top: 5px !important;
+
+  margin: 10px;
+  border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.address,
+.phone,
+.states {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: space-between;
+}
+
+/* .css-1s2u09g-control {
+  width: 70% !important;
+  margin: auto;
+  height: 35px;
+  border-radius: 3px;
+  border: none;
+  max-width: 250px;
+} */
+.address textarea {
+  width: 70% !important;
+  margin: auto;
+  height: 40px;
+  border-radius: 3px;
+  border: none;
+  max-width: 250px;
+}
+.log-in-form .css-b62m3t-container {
+  width: 70% !important;
+  margin: auto;
+  height: 35px;
+  border-radius: 3px;
+  border: none;
+  max-width: 250px;
+  height: 35px;
+}
+.css-1s2u09g-control {
+  height: 35px;
+}
+.css-6j8wv5-Input {
+  padding: 0 !important;
+}
+.css-319lph-ValueContainer {
+  height: 35px;
+}
+
+.css-qc6sy-singleValue {
+  height: 35px;
+}
+.log-in-form-outside h2 {
+  text-align: center;
+  font-family: "Potta One", cursive;
+}
+.log-in-form-outside {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/* ======btn==== */
+.log-in-button {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  background-image: linear-gradient(to right, #e052a0, #f15c41);
+  cursor: pointer;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.log-in-button:hover {
+  background-image: linear-gradient(to right, #3ec7e0, #526bf4);
+}
+.submit-button {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.errors {
+  color: red;
+  padding: 4px;
+  margin-top: 10px !important;
+  width: 70% !important;
+  margin: auto;
+  max-width: 250px;
+  border-radius: 5px;
+}

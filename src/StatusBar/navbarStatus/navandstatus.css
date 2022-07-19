@@ -1,0 +1,102 @@
+/* =====navbar=== */
+.total-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 20px 15px 20px 15px;
+  border-right: 1px solid rgb(170, 170, 170);
+  position: fixed;
+}
+/* ---nav-logo--- */
+.nav-logo img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px black;
+}
+.nav-logo {
+  display: flex;
+  gap: 10px;
+  /* align-items: flex-start; */
+}
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.logo-text h6,
+p {
+  margin: 0;
+  font-size: 10px;
+  font-weight: 600;
+}
+/* ----nav-icon--- */
+.nav-home {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-dashboard-menu {
+  display: flex;
+  flex-direction: column;
+  color: rgb(77, 77, 77);
+  gap: 20px;
+  border-bottom: 1px solid rgb(197, 197, 197);
+  padding: 5px;
+  margin: 10px;
+}
+.emp-profile {
+  display: flex;
+  gap: 10px;
+  color: rgb(77, 77, 77);
+}
+.emp-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 10px;
+  padding: 5px;
+  border-bottom: 1px solid rgb(190, 190, 190);
+}
+.footer-button {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.footer-button button {
+  display: flex;
+  width: 70px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* ===active-button=== */
+.active-button {
+  display: flex;
+  justify-content: baseline;
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+.downArrow {
+  width: 10px;
+  height: 10px;
+  object-fit: cover;
+}
+.upArrow {
+  width: 10px;
+  height: 10px;
+  object-fit: cover;
+  transform: rotate(180deg);
+}
+.active-button p {
+  font-weight: bolder !important;
+}
+.dashboard-nav-text {
+  font-weight: bold !important;
+  font-size: 10px;
+  margin: 0;
+}

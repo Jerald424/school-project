@@ -1,0 +1,45 @@
+.sports-table {
+  width: 95%;
+  margin: auto auto 30px auto;
+}
+@media only screen and (min-width: 1200px) {
+  .sports-table {
+    width: 80%;
+  }
+}
+.sports-total-table {
+  overflow-x: scroll !important;
+}
+.sports-total-table::-webkit-scrollbar {
+  display: none;
+}
+.sports-table th {
+  border-top: 1px solid black;
+}
+/* ======modal-count======== */
+
+.count-total {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(185, 185, 185, 0.605);
+  border-radius: 4px;
+  /* margin: auto; */
+  padding: 5px;
+  gap: 4px;
+  width: 100px;
+  height: 40px;
+}
+.count-plus,
+.count-minus {
+  background: rgba(84, 83, 83, 0.628);
+  padding: 5px;
+  border-radius: 4px;
+}
+.count {
+  padding: 5px;
+  /* font-size: 20px; */
+}
+.modal-dialog {
+  width: 80%;
+  margin: auto;
+}

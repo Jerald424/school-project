@@ -1,0 +1,95 @@
+.table-handle {
+  width: 90%;
+  margin: auto;
+  overflow: scroll;
+  height: 260px;
+}
+.table-handle::-webkit-scrollbar {
+  display: none;
+}
+.sorting-data {
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  margin: auto;
+}
+.sorting-data label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: rgb(0, 183, 255);
+  color: white; */
+  width: 80px;
+  padding: 5px;
+  border-radius: 5px;
+  margin: auto;
+  justify-content: space-between;
+}
+.sorting-data .css-1s2u09g-control {
+  width: 200px;
+  margin: auto;
+}
+.sorting-data-select .css-b62m3t-container {
+  width: 200px !important;
+  margin: auto;
+}
+.sorting-data .css-319lph-ValueContainer {
+  width: 200px;
+}
+@media only screen and (max-width: 600px) {
+  .sorting-data {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+.search-button {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+/* ========*/
+.sort-items-design {
+  background: rgb(0, 0, 0);
+  color: white;
+  padding: 4px;
+  font-size: 10px;
+  border-radius: 10px;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+/* ========pagination-design========== */
+.pagenationButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: auto;
+  max-width: 260px;
+  margin-right: 80px;
+  padding: 20px;
+}
+.pagenationButtons li {
+  list-style: none;
+}
+.pagenationButtons a {
+  color: inherit;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 7px;
+  border: 1px solid rgb(0, 162, 255);
+}
+.previosButtons,
+.nextButtons {
+  background: rgb(0, 102, 255);
+  color: white !important;
+  border: 1px solid rgb(0, 42, 119) !important;
+  font-size: 14px;
+}
+
+.paginationActive a {
+  border: 1px solid rgb(0, 162, 255);
+  background: rgb(0, 153, 255);
+  color: white !important;
+}

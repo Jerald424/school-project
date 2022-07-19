@@ -1,0 +1,10 @@
+.chart-input-form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+  margin-top: 30px;
+}
+.chart-input-form input {
+  width: 200px;
+}

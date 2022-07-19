@@ -1,0 +1,153 @@
+.total {
+  background-color: rgb(224, 224, 224);
+  height: 100%;
+  padding-bottom: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  width: 100% !important;
+}
+.header .left-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.header .right-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.header-outside {
+  margin-top: 0 !important;
+  width: 100% !important;
+  background-color: rgb(0, 68, 100) !important;
+  color: white;
+}
+
+/* =====table==== */
+.student-inside-table {
+  /* width: 90%; */
+  margin: 4%;
+  background-color: rgb(255, 255, 255);
+  /* padding: 3%; */
+  border-radius: 4px;
+}
+
+.student-inside-table h4 {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: green;
+  color: white;
+  padding-left: 14px !important;
+  padding: 7px;
+  font-size: 16px;
+}
+.student-table-part {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(202, 202, 202);
+  border-top: 2px solid rgb(255, 115, 0);
+  padding: 17px;
+  border-radius: 5px;
+}
+
+/* =======inside-table-design==== */
+.table-first-key-value,
+.table-second-key-value {
+  display: flex;
+  overflow: scroll;
+}
+.table-first-key-value::-webkit-scrollbar {
+  display: none;
+}
+.table-second-key-value::-webkit-scrollbar {
+  display: none;
+}
+.student-table-part {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+@media only screen and (max-width: 600px) {
+  .student-table-part {
+    flex-direction: column;
+  }
+  .student-data-tabs {
+    flex-direction: column;
+  }
+}
+.table-first-key,
+.table-first-value,
+.table-second-key,
+.table-second-value {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+.table-first-key p,
+.table-second-key p {
+  margin: 0 !important;
+  font-weight: bolder;
+}
+.table-first-value p,
+.table-second-value p {
+  font-size: 13px;
+  margin: 0 !important;
+}
+
+/* ======tabs-style====== */
+.student-data-tabs {
+  /* margin: 5%; */
+  margin-top: 10px !important;
+  padding: 17px;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+.student-data-tabs .react-tabs__tab,
+.student-data-tabs .react-tabs__tab--selected {
+  color: rgb(255, 115, 0) !important;
+  font-weight: bolder;
+}
+.tab-total {
+  margin-left: 5%;
+  margin-right: 5%;
+  overflow: scroll;
+}
+.tab-total::-webkit-scrollbar {
+  display: none;
+}
+.tab-total .react-tabs__tab {
+  color: green;
+  font-weight: bold;
+}
+
+td,
+tfoot,
+th,
+thead,
+tr {
+  text-align: center;
+  border-color: rgb(202, 202, 202) !important;
+}
+
+/* .social-media======= */
+.social-media-total {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.social-media-heading {
+  font-weight: 600;
+}
+.social-media-data {
+  font-size: 13px;
+}

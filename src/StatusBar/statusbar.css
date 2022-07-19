@@ -1,0 +1,80 @@
+* {
+  font-family: "Lato", serif;
+}
+.right-side-status-bar {
+  padding: 10px;
+}
+.label-input {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  margin: 20px;
+}
+.submit-button {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+  .label-input {
+    flex-direction: column;
+  }
+}
+.table-dyanamic td,
+th {
+  padding: 4px;
+  transition: width 2s;
+}
+.total-button {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 30px;
+  align-items: center;
+  transition-timing-function: linear;
+}
+.total-button li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+.previosButton,
+.nextButton {
+  background-color: rgb(0, 140, 255);
+  color: white;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.total-button a {
+  padding: 6px;
+  border: 1px solid rgb(0, 140, 255);
+  border-radius: 4px;
+}
+.button-active a {
+  background: rgb(0, 140, 255);
+  color: white !important;
+}
+.status-bar {
+  width: 90%;
+  margin: 10px auto;
+  max-width: 600px;
+}
+
+.top-images {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+.top-images img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50px;
+  border: 1px solid red;
+  padding: 2px;
+}
